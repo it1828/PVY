@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <title>Led Zeppelin - Funclub</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/styly.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand text-danger" href="../index.html">Led Zeppelin</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Historie/historie.html">Historie<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../O_kapele/info.html">O kapele<span class="sr-only">(current)</span></a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Členové</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="../Robert_Plant/Plant.html">Robert Plant</a>
+                        <a class="dropdown-item" href="../Jimmy_Page/Page.html">Jimmy Page</a>
+                        <a class="dropdown-item" href="../John_Paul_Jones/Jones.html">John Paul Jones</a>
+                        <a class="dropdown-item" href="../John_Bonham/Bonham.html">John Henry Bonham</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Funclub</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Záhlaví-->
+    <header class="bg-dark text-center">
+
+        <p class="text-center nadpis"><strong>Led Zeppelin</strong> </p>
+        <h2 class="text-center podnadpis"> Official funclub</h2>
+
+
+    </header>
+
+
+    <!-- Hlavní část-->
+    <main class="container">
+        <hr class="bg-dark">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="username">*Jméno a Příjmení</label>
+                        <input type="email" class="form-control" id="username" placeholder="Jméno Příjmení">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">*E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="E-mailová adresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="telcislo">Telefoní číslo</label>
+                        <input type="number" class="form-control" id="telcislo" placeholder="+420">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">*Heslo</label>
+                        <input type="password" class="form-control" id="password" placeholder="Heslo">
+                        <small id="passwordwrgweHelpInline" class="text-muted">
+                            V rozsahu 8 - 20 znaků
+                        </small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password2">*Heslo znovu</label>
+                        <input type="password" class="form-control" id="password2" placeholder="Heslo znovu">
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col-form-label col-sm-2 pt-0">*Způsob platby</div>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Visa
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                        value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        MasterCard
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridetRadios3"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="gridetRadios3">
+                                        Jiné
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="pohlavi">Pohlaví</label>
+                        <select class="form-control" id="pohlavi">
+                            <option>Muž</option>
+                            <option>Žena</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="note">Poznámka</label>
+                        <textarea class="form-control" id="note" rows="2"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox">Zasílání novinek na E-mail
+                        </label>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox">*Souhlasím s podínkama GDPR
+                        </label>
+                    </div>
+                    <div>
+                        <small id="passwordHelpInline" class="text-muted">
+                            * musí být vyplněno
+                        </small>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-dark">Stát se členem</button>
+                </form>
+
+            </div>
+            <div class="col-md-6">
+
+            </div>
+        </div>
+
+        <hr class="bg-dark">
+    </main>
+
+
+    <!-- Zápatí-->
+    <footer class=" bg-dark">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-11 col-9">
+
+
+                    <a target="blank" href="https://www.youtube.com/results?search_query=led+zeppelin"><i
+                            class="fab fa-youtube text-danger display-4"></i></a>
+                    <a target="blank" href="https://lz50.ledzeppelin.com/?ref="><i
+                            class="fas fa-globe text-danger ikona"></i></a>
+
+                </div>
+                <div class="col-md-1 col-3">
+
+                    <a href="#"><i class="far fa-caret-square-up text-danger display-4"></i></a>
+
+                </div>
+
+            </div>
+            <hr class="bg-white">
+            <div class="row">
+
+                <div class="col-md-9">
+
+
+                </div>
+                <div class="col-md-3">
+                    <p class="text-white">&copy; 2019, sšpu IT1 - Wolf Jan</p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

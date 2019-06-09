@@ -1,0 +1,113 @@
+.obr{
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 10%;
+  opacity: 0.8;
+}
+.obr:hover{
+  opacity: 1;
+}
+.nadpis{
+    color: rgb(192, 9, 9);
+    font-size: 100px;
+  }
+  .podnadpis{
+    color: white;
+    font-size: 60px;
+  }
+header, h2{
+    font-family: 'Orbitron', sans-serif;
+  }
+.ikona{
+    font-size: 4em;
+  }
+  .copy{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  @media only screen and (max-width: 1205px){
+    .obr{
+      width: 300px; 
+    }
+  }
+  @media only screen and (max-width: 500px) {
+  .nadpis{
+    font-size: 50px;
+  }
+  .podnadpis{
+    font-size: 40px;
+  }
+  .koncert{
+    width: 70%;
+  }
+  .obr{
+    width: 300px;
+  }
+}
+.logo_hi{
+  width: 100%;
+}
+.cleni_hi{
+ width: 100%;
+}
+.stadion{
+  width: 100%;
+}
+.bonham{
+  width: 70%;
+}
+.alba{
+  width: 250px;
+}
+.symbol{
+  width: 70%;
+}
+.page{
+  width: 90%;
+}
+.jones{
+  width: 90%;
+}
+.jones2{
+  width: 200px;
+}
+.epitaf{
+  border: 1px solid black;
+  padding: 15px;
+  width: 250px;
+}
+
+.hrob{
+  border: 3px solid black;
+}
+body{
+  overflow-x: hidden;
+}
+
+.o_kapele{
+  width: 100%;
+}
+.jedna{
+  width: 200px;
+  border: 1px solid black;
+}
+.dva{
+  width: 200px;
+
+}
+.tri{
+  width: 200px;
+  border: 1px solid black;
+}
+.nazevalba{
+  font-family: 'Orbitron', sans-serif; 
+}
+.nejalba{
+  font-family: 'Orbitron', sans-serif; 
+}
+.ctyr{
+  width: 200px;
+  border: 1px solid black;
+}
+table{
+  border: 2px solid lightgray;
+}

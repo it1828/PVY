@@ -1,7 +1,7 @@
 
 main{
     background-image: url(../img/back_upraven.png);
- 
+ background-position: center top; 
     background-repeat: no-repeat;
 }
 
